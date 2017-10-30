@@ -15,13 +15,20 @@
 	
 ## multi-task transfer (train on many tasks, tranfer to a new task)
 
-
-
+	a) model-based reinforcement learning
+		- construct a joint MDP
+		- train each MDP separately, then combine policies
+	b) model distillation
+		- actor mimic policy distillation (maybe can work with c)
+	c) contextual policies
+	d) modular policy networks
+		- separate neural network into robot specific and task specific parts
 
 
 ## multi-task meta-learning (learn to learn from many tasks)
 
-
+	a) RNN-based meta-learning
+	b) gradient-based meta-learning
 
 
 	
